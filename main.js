@@ -14,5 +14,5 @@ addBtn.onsubmit = (event) => {
 };
 
 addClass = (c) => {
-  c.classList.add("clicked");
+  c.classList.toggle("clicked");
 };
